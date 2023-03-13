@@ -1,0 +1,3 @@
+/Users/bissoli/Documents/Estudos/Projeto e Análise de Algorítmos/Listex 02/Busca Linear/cmake-build-debug/CMakeFiles/Busca_Linear.dir
+/Users/bissoli/Documents/Estudos/Projeto e Análise de Algorítmos/Listex 02/Busca Linear/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/bissoli/Documents/Estudos/Projeto e Análise de Algorítmos/Listex 02/Busca Linear/cmake-build-debug/CMakeFiles/rebuild_cache.dir
