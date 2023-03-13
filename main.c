@@ -2,6 +2,7 @@
 #include <stdlib.h>
 #include "createArray.h"
 #include "printArray.h"
+#include "buscador.h"
 
 int main() {
     printf("\tProjeto e Análise de Algoritmos\n");
@@ -14,7 +15,13 @@ int main() {
     arrayOriginal = (int*) malloc(n * sizeof(int));
     geraArrayAleatorio(arrayOriginal, n);
 
-    printArray(arrayOriginal, "Array gerado automaticamente", n);
+    printArray(arrayOriginal, "Array gerado", n);
+
+    printf("Digite o valor que deseja buscar no array\n");
+    printf("> ");
+    scanf("%d", &v);
+
+    buscaLinear(arrayOriginal, n, v);
 
     return 0;
 }

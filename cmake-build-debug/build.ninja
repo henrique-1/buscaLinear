@@ -70,6 +70,12 @@ build CMakeFiles/Busca_Linear.dir/createArray.c.o: C_COMPILER__Busca_Linear_Debu
   OBJECT_DIR = CMakeFiles/Busca_Linear.dir
   OBJECT_FILE_DIR = CMakeFiles/Busca_Linear.dir
 
+build CMakeFiles/Busca_Linear.dir/buscador.c.o: C_COMPILER__Busca_Linear_Debug /Users/bissoli/Documents/Estudos/Projeto$ e$ Análise$ de$ Algorítmos/Listex$ 02/Busca$ Linear/buscador.c || cmake_object_order_depends_target_Busca_Linear
+  DEP_FILE = CMakeFiles/Busca_Linear.dir/buscador.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -fcolor-diagnostics -std=gnu11
+  OBJECT_DIR = CMakeFiles/Busca_Linear.dir
+  OBJECT_FILE_DIR = CMakeFiles/Busca_Linear.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target Busca_Linear
@@ -78,7 +84,7 @@ build CMakeFiles/Busca_Linear.dir/createArray.c.o: C_COMPILER__Busca_Linear_Debu
 #############################################
 # Link the executable Busca_Linear
 
-build Busca_Linear: C_EXECUTABLE_LINKER__Busca_Linear_Debug CMakeFiles/Busca_Linear.dir/main.c.o CMakeFiles/Busca_Linear.dir/numOps.c.o CMakeFiles/Busca_Linear.dir/printArray.c.o CMakeFiles/Busca_Linear.dir/createArray.c.o
+build Busca_Linear: C_EXECUTABLE_LINKER__Busca_Linear_Debug CMakeFiles/Busca_Linear.dir/main.c.o CMakeFiles/Busca_Linear.dir/numOps.c.o CMakeFiles/Busca_Linear.dir/printArray.c.o CMakeFiles/Busca_Linear.dir/createArray.c.o CMakeFiles/Busca_Linear.dir/buscador.c.o
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk
   OBJECT_DIR = CMakeFiles/Busca_Linear.dir
   POST_BUILD = :

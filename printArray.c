@@ -5,7 +5,7 @@
 void printArray(int array[], char msg[], int n){
     printf("\n\t%s =", msg);
     for(int i = 0; i < n; i++){
-        printf(" %d", array[i]);
+        printf(" [%d]", array[i]);
     }
     printf("\n");
 }
